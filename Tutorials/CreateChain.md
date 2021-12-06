@@ -1,3 +1,5 @@
+## Create a test chain from scratch 
+
 Create the node directories
 ```bash
 simd unsafe-reset-all --home .
