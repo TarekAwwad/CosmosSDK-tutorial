@@ -40,6 +40,11 @@ Set the persistent peer in `./conifg/config.toml`
 persistent_peers="7a33c2cf42cfe638dfae122e375ffa759c5203df@51.68.141.150:26656"
 ```
 
+Enable the REST API in the correspondent section in `./conifg/app.toml`
+```bash
+enable = true
+```
+
 Start your node
 ```bash
 simd start --home . &> simd.log &
