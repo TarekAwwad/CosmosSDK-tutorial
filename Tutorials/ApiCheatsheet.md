@@ -3,17 +3,17 @@ With your local API REST (http://localhost:1317) fetch the following URL.
 
 Fetch your node data:
 ```
-/node_info
+/cosmos/base/tendermint/v1beta1/node_info
 ```
 
 Fetch a given block:
 ```
-/blocks/{height}
+/cosmos/base/tendermint/v1beta1/blocks/{height}
 ```
 
 Fetch the latest block:
 ```
-/blocks/latest
+/cosmos/base/tendermint/v1beta1/blocks/latest
 ```
 
 Fetch a transaction:
