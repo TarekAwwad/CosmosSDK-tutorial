@@ -6,6 +6,14 @@ wget https://dl.google.com/go/go1.17.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.17.linux-amd64.tar.gz
 ```
 
+Export paths
+```bash
+mkdir -p $HOME/go/bin
+PATH=$PATH:/usr/local/go/bin
+echo "export PATH=$PATH:$(go env GOPATH)/bin" >> ~/.bash_profile
+source ~/.bash_profile
+```
+
 Check the Go installation
 ```bash
 go version
