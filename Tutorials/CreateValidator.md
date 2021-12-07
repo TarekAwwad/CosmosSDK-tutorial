@@ -40,7 +40,7 @@ simd unsafe-reset-all --home .
 
 Get the genesis
 ```bash
-curl https://github.com/TarekAwwad/CosmosSDK-tutorial/Insachain/genesis.json > config/genesis.json
+curl https://raw.githubusercontent.com/TarekAwwad/CosmosSDK-tutorial/main/Insachain/genesis.json > config/genesis.json
 ```
 
 Set the persistent peer in `./conifg/config.toml`
